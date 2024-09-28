@@ -8,11 +8,11 @@
 }
 
 .callout img {
-	float:right;
+	float: right;
     margin:  0 0 1 rem 1 rem;
-    border: 1px solid black;
-    padding: 0.5rem
-    background-color white;
+    border: 1px solid #0000ff;
+    padding: 0.5rem;
+    background-color: white;
     width: 8rem;
     height: auto;
 }
