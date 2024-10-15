@@ -1,0 +1,46 @@
+:root {
+    --primary-color:
+    --secondary-color:var(--primary-color)
+    --accent1-color:
+    --accent2-color:var(--primary-color)
+
+    --heading-font: "Merriweather", serif;
+    --body-font: "Roboto": sans-serif;
+
+
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--body-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: var(--heading-font);
+
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+}
+.hero article {
+    position: absolute;
+}
+.hero article img {
+    float: right;
+    width: 200px;
+}
