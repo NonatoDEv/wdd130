@@ -7,16 +7,15 @@
     heading-font: "Merriweather", serif;
     body-font: "Roboto", sans-serif;
 
-
 }
-* {
+*{
     box-sizing: border-box;
-    
+    }
 a {
     text-decoration: none;
    
 }
-}
+
 body {
     font-family:"Roboto", sans-serif ;
     
