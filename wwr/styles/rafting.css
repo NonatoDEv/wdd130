@@ -1,12 +1,12 @@
 :root{
+    /*
     --primary-color: #275168
     --secondary-color: #F7F4F3 var(--#275168)
     --accent1-color: #600644
-    --accent2-color: #C8F9CE var(--#275168)
-
+    --accent2-color: #C8F9CE2 var(--#275168)
     heading-font: "Merriweather", serif;
-    body-font: "Roboto", sans-serif;
-}
+    body-font:"Roboto", sans-serif;*/
+    }
 *{
     box-sizing: border-box;
     }
