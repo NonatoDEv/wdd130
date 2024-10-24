@@ -13,7 +13,7 @@
     }
 a {
     text-decoration: none;
-   
+    
 }
 
 body {
@@ -35,17 +35,46 @@ header, main, footer {
     max-width: 100%;
     margin: 0 auto;
 }
-
+header{
+    display: grid;
+    grid-template-columns: 120px 2fr;
+    align-items: center;
+    margin: 1rem auto;
+    border-bottom: 1px solid #275168;
+}
+.logo{
+    width: 96px;
+    height: auto;
+    margin: 0 0.25rem 0 1rem;
+    position: relative;
+    top:0.5rem ;
+    left: 1rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+header nav{
+    text-align: right;
+}
+.navigation {
+    display: flex;
+    list-style:none;
+}
+.navigation li{
+    flex: 1 1 80%;
+}
+.navigation a{
+    display: block;
+	color: #275168;
+	padding: 20px;
+	text-decoration: none;;
+}
 .hero {
     position: relative;
-    
 }
 .hero img {
     display: block;
     width: 100%;
-    
-
-    
+    border-radius: 0.5rem;
 }
 .hero h1 {
     position: absolute;
@@ -72,5 +101,56 @@ header, main, footer {
     width: 17rem;
     height:auto;
     margin: 1rem;
-    
+
+}
+.history{
+    position: relative;
+    display:grid;
+    text-align: center;
+
+}
+.historybanner{
+    display: flex;
+    flex-direction: row;
+}
+.adventures{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.adventures h2{
+    align-items: center;
+    text-align: center;
+}
+.adventures div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:2rem;
+    background-color:#275168;
+}
+.adventures figure{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.adventures img{
+    width: 200px;
+    border-radius: 0.5rem;
+}
+.adventures figcaption{
+    text-align: center;
+    color:#C8F9CE;
+
+}
+footer{
+    /* flex */
+    /*display: flex;
+    justify-content:center;*/
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align:right;
+}
+.sociallinks{
+    text-align: center;
 }
