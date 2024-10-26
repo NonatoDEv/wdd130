@@ -265,7 +265,7 @@ footer p{
     flex-direction: column;
     padding: 1.25rem;
 }
-input, label, textarea, select{
+input, label, textarea, select, .quest-radio{
     font-size: 1rem;
 }
 label{
