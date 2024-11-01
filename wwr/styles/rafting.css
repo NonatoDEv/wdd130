@@ -313,7 +313,7 @@ footer p{
 .msg{
     grid-column: 7/12;
     grid-row: 5/7;
-    color: var(--white);
+    color: var(--accent1-color);
     background-color: var(--white);
     padding: 2.25rem;
     box-shadow: 0.25rem 0.25rem 0.5rem #6f7364;
